@@ -1,0 +1,29 @@
+{
+  "successOk": 200,
+  "successCreated": 201,
+  "successAccepted": 202,
+  "successNoContent": 204,
+  "failedBadRequest": {
+    "codeNumber": 400,
+    "codeMessage": "BadRequest"
+  },
+  "failedUnauthorized": {
+    "codeNumber": 401,
+    "codeMessage": "UNAUTHORIZED"
+  },
+  "failedForbiddenInvalidToken": {
+    "codeNumber": 403,
+    "codeMessageForbidden": "Forbidden",
+    "codeMessageInvalidToken": "INVALID_TOKEN"
+  },
+  "failedNotFound": {
+    "codeNumber": 404,
+    "codeMessage": "NotFound"
+  },
+  "failedInvalidToken":{
+    "codeNumber": 401,
+    "codeMessage": "Invalid Bearer Token"
+  },
+  "unprocessableEntity": 422,
+  "failedInternalServerError": 500
+}  
