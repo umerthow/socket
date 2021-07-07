@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "prettier",
+    "import"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-console": "error",
+    "comma-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "class-methods-use-this": "off"
+  }
+}
